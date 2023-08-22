@@ -1,0 +1,81 @@
+.nav-marg{
+
+    margin-left: 150px;
+
+}
+
+.bg-image{
+   background-image: url(components/images/Image.svg);
+  
+   fill-opacity: cover;
+   background-position: center;
+
+   
+   
+}
+@media  (max-width: 800px){
+    .bg-image{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+.btn-buyy{
+    background-color:  #FF4343 !important;
+    width: 180px;
+
+}
+.dash-bg{
+    background-color: #FFFFFF;
+}
+.bg-image-2{
+    background-image: url(components/images/Background.svg);
+    fill-opacity: cover;
+    background-position: center;
+}
+
+@media  (max-width: 600px){
+    .bg-image-2{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+.bg-text{
+    color: #1F2C73;
+
+}
+.text-size-6{
+    font-size: 12px;
+}
+.bg-grayy{
+    color:  #5A6C90;
+}
+.strips-font{
+    font-family: fantasy;
+}
+
+
+.main-D{
+    background-color: #F6F9FC;
+}
+.font-fam{
+    font-family: 'pacifico' !important;
+}
+
+
+
+        .mainD {
+          background-image: url("components/images/Background\ \(2\).svg");
+         
+        }
+      
+ 
+  
+.main-footer-D{
+    background-color: black;
+
+}
+
