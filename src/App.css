@@ -1,9 +1,78 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 .nav-marg{
 
     margin-left: 150px;
 
 }
 
+.bg-color-image{
+    background-image: url("./components/images/Landing\ Page\ \(1\).svg");
+    fill-opacity: cover;
+    background-position: center;
+ 
+    
+    
+ }
+ @media  (max-width: 800px){
+     .bg-color-image{
+         background-size: contain;
+         background-repeat: no-repeat;
+         background-size: cover;
+         width: 100%;
+     }
+}
+.border-color{
+    border: 1px solid #D747EF !important;
+}
+.font-size-50{
+    font-size: 60px;
+}
+.btn-purple{
+    background-color: #D747EF !important;
+    border: none;
+}
+.bg-color-input{
+    background-color: #d990e6 !important;
+
+}
+.text-blue{
+    color: #201EA3;
+}
+.btn-border{
+    border: 1px solid #912EDF !important;
+}
+.text-colorr{
+    color: #912EDF !important;
+}
+.bg-purple{
+    background-color: #912EDF40 !important;
+}
+.border-btnn{
+    border: 1px solid #D747EF !important;
+}
+.footer-bg{
+    background-image: url("./components/images/Rectangle\ 9.svg");
+}
+
+
+::placeholder {
+    color: white !important;
+  }
+  .linee{
+    background-color: white;
+     height: 2px;
+  }
+
+
+
+
+
+
+
+
+/* 
 .bg-image{
    background-image: url(components/images/Image.svg);
   
@@ -14,7 +83,7 @@
    
 }
 @media  (max-width: 800px){
-    .bg-image{
+    .bg-color-image{
         background-size: contain;
         background-repeat: no-repeat;
         background-size: cover;
@@ -77,5 +146,5 @@
 .main-footer-D{
     background-color: black;
 
-}
+} */
 

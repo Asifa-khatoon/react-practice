@@ -1,14 +1,13 @@
 
 
 import './App.css';
-import Header from './components/Header';
-import Navmid from './components/Midnav';
-import SecLast from './components/Second-last';
-import TextSection from './components/Text-sec';
-import Section from './components/Third-section';
-import TheCards from './components/Three-cards';
-import GridSec from './components/Two-sections';
-import Footer from './components/Footerr.';
+import BlueDress from './components/blue-dress';
+import Feedback from './components/feedback';
+import Footer from './components/footer';
+import Header from './components/header';
+import Purple from './components/purple';
+import PurpleSection from './components/purple-2-section';
+
 
 
 
@@ -16,16 +15,13 @@ import Footer from './components/Footerr.';
 function App() {
   return (
     <> 
-   <Header /> 
-  
-   <Navmid />
-   <Section />
-   <GridSec />
-   <TextSection />
-   <TheCards />
-   <SecLast />
-  <Footer />
-
+    <Header/>
+    <BlueDress/>
+    <PurpleSection/>
+    <Purple/>
+    <Feedback/>
+    <Footer/>
+ 
    </>    
   
   );
